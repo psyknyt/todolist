@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.input_task {
+  text-align: center;
+  font-family: "inter", sans-serif;
+}
+.heading {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.input_task {
+  background-color: grey;
+  width: 40%;
+  height: 2rem;
+  margin: 0rem auto;
+  padding: 0.5rem;
+  border: 1px dotted grey;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.input {
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+  height: inherit;
+  outline: none;
+  color: whitesmoke;
+  font-family: "Inter", sans-serif;
+  border-radius: 6px;
+  border: 1px solid grey;
+}
+::placeholder {
+  color: white;
+}
+.add_btn {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
